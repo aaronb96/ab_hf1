@@ -16,5 +16,10 @@ namespace hf1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "" + calculator.osszead(5, 6);
+        }
     }
 }
