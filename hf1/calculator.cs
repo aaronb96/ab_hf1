@@ -8,6 +8,8 @@ namespace hf1
 {
     class calculator
     {
+        public const double pi = 3.14;
+
         public static double osszead(double egyikszam,double masikszam)
         {
             return egyikszam + masikszam;
